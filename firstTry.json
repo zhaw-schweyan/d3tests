@@ -2,92 +2,104 @@
   "nodes": [
     {
       "id": 1,
-      "name": "A"
+      "name": "A",
+      "email": "alice@intern.ch",
+      "group": "intern"
     },
     {
       "id": 2,
-      "name": "B"
+      "name": "B",
+      "email": "bob@intern.ch",
+      "group": "intern"
     },
     {
       "id": 3,
-      "name": "C"
+      "name": "C",
+      "email": "charlie@intern.ch",
+      "group": "intern"
     },
     {
       "id": 4,
-      "name": "D"
+      "name": "D",
+      "email": "dave@intern.ch",
+      "group": "intern"
     },
     {
       "id": 5,
-      "name": "E"
+      "name": "E",
+      "email": "extern@extern.ch",
+      "group": "extern"
     },
     {
       "id": 6,
-      "name": "F"
+      "name": "F",
+      "email": "francis@extern.ch",
+      "group": "extern"
     },
     {
       "id": 7,
-      "name": "G"
-    },
-    {
-      "id": 8,
-      "name": "H"
-    },
-    {
-      "id": 9,
-      "name": "I"
-    },
-    {
-      "id": 10,
-      "name": "J"
+      "name": "G",
+      "email": "gustav@extern.ch",
+      "group": "extern"
     }
-  ],
+    
   "links": [
 
     {
       "source": 1,
-      "target": 2
+      "target": 2,
+      "filename": "TEST.PNG"
     },
     {
       "source": 1,
-      "target": 5
+      "target": 2,
+      "filename": "TEST2.PNG"
     },
     {
       "source": 1,
-      "target": 6
+      "target": 6,
+      "filename": "test3.png"
     },
 
     {
       "source": 2,
-      "target": 3
+      "target": 3,
+      "filename": "TEST.PNG"
     },
             {
       "source": 2,
-      "target": 7
+      "target": 7,
+      "filename": "TEST.PNG"
     }
     ,
 
     {
       "source": 3,
-      "target": 4
+      "target": 4,
+      "filename": "TEST4.PNG"
     },
      {
-      "source": 8,
-      "target": 3
+      "source": 1,
+      "target": 3,
+      "filename": "TEST.PNG"
     }
     ,
     {
       "source": 4,
-      "target": 5
+      "target": 5,
+      "filename": "TEST23.PNG"
     }
     ,
 
     {
       "source": 4,
-      "target": 9
+      "target": 1,
+      "filename": "TEST.PNG"
     },
     {
       "source": 5,
-      "target": 10
+      "target": 2,
+      "filename": "TEST23.PNG"
     }
   ]
 }
