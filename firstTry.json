@@ -42,7 +42,7 @@
       "email": "gustav@extern.ch",
       "group": "extern"
     }
-    
+    ],
   "links": [
 
     {
@@ -82,14 +82,12 @@
       "source": 1,
       "target": 3,
       "filename": "TEST.PNG"
-    }
-    ,
+    },
     {
       "source": 4,
       "target": 5,
       "filename": "TEST23.PNG"
-    }
-    ,
+    },
 
     {
       "source": 4,
